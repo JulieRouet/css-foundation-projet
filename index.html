@@ -1,0 +1,941 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>mon titre</title>
+    <meta name="description" content="ma description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="stylesheets/globals.css">
+    <link rel="stylesheet" href="stylesheets/typography.css">
+    <link rel="stylesheet" href="stylesheets/grid.css">
+    <link rel="stylesheet" href="stylesheets/ui.css">
+    <link rel="stylesheet" href="stylesheets/forms.css">
+    <link rel="stylesheet" href="stylesheets/orbit.css">
+    <link rel="stylesheet" href="stylesheets/reveal.css">
+    <link rel="stylesheet" href="stylesheets/mobile.css">
+    <link rel="stylesheet" href="stylesheets/mystyle.css">
+
+    <!-- End Combine and Compress These CSS Files -->
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <link rel="stylesheet" href="responsive-tables.css">
+
+    <script src="/javascripts/modernizr.js"></script>
+
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="responsive-tables.js"></script>
+
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<header>
+
+</header>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">My Site</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon">
+                <a href="#">
+                    <span>Menu</span>
+                </a>
+            </li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li class="active"><a href="#">Right Button Active</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Right Button Dropdown</a>
+                    <ul class="dropdown">
+                        <li><a href="#beautedutexte">Beauté du texte</a></li>
+                        <li><a href="#beautecouleur">Beauté de la couleur et du fond</a></li>
+                        <li><a href="#miseenboite">Mise en boîte</a></li>
+                        <li><a href="#beautepositionnement">Beauté du positionnement et de l'affichage</a></li>
+                        <li><a href="#listedebeaute">Listes de beauté</a></li>
+                        <li><a href="tableaubeaute">Tableau de beauté</a></li>
+                        <li><a href="#autrebeaute">Autre beauté</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+                <li><a href="#">Left Nav Button</a></li>
+            </ul>
+        </section>
+    </nav>
+
+    <!-- container -->
+    <div class="container">
+
+        <div class="row">
+            <div class="twelve columns">
+                <h1>CSS</h1>
+                <h2 class="subhead">le christina cordoula de la page web</h2>
+
+                <p>explications sur le css</p>
+
+                <!--tableau 1-->
+
+
+                <div id="beautedutexte"><p>Beauté du texte</p></div>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>font-family</code>
+                        </td>
+                        <td>
+
+                            police1, police2, police3, serif, sans-serif, monospace</td>
+                        <td>
+                            <dfn>nom de police</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>@font-face</code>
+                        </td>
+                        <td>Nom et source de la police</td>
+                        <td>
+                            <dfn>Police personnalisée</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>font-weight</code>
+                        </td>
+                        <td>bold, normal</td>
+                        <td>
+                            <dfn>Graisse de la typo</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>font-style</code>
+                        </td>
+                        <td>italic, oblique, normal</td>
+                        <td>
+                            <dfn>Variante de la police</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>text-decoration</code>
+                        </td>
+                        <td>underline, overline, line-through, blink, none</td>
+                        <td>
+                            <dfn>Soulignement, ligne au-dessus, barré ou clignotant</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>font-variant</code>
+                        </td>
+                        <td>small-caps, normal</td>
+                        <td>
+                            <dfn>Petites capitales</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>text-transform</code>
+                        </td>
+                        <td>capitalize, lowercase, uppercase</td>
+                        <td>
+                            <dfn>Capitales</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>font</code>
+                        </td>
+                        <td>.</td>
+                        <td>
+                            <dfn>Super propriété de police. Combine : font-weight, font-style, font-size, font-variant, font-family.</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>text-align</code>
+                        </td>
+                        <td>left, center, right, justify</td>
+                        <td>
+                            <dfn>Alignement horizontal</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>vertical-align</code>
+                        </td>
+                        <td>baseline, middle, sub, super, top, bottom</td>
+                        <td>
+                            <dfn>Alignement vertical (cellules de tableau ou éléments
+                                <code>inline-block</code>uniquement</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>line-height</code>
+                        </td>
+                        <td>18px, 120%, normal...</td>
+                        <td>
+                            <dfn>Hauteur de ligne</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>text-indent</code>
+                        </td>
+                        <td>25px</td>
+                        <td>
+                            <dfn>Alinéa</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>white-space</code>
+                        </td>
+                        <td>pre, nowrap, normal</td>
+                        <td>
+                            <dfn>Césure</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>word-wrap</code>
+                        </td>
+                        <td>break-word, normal</td>
+                        <td>
+                            <dfn>Césure forcée</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>text-shadow</code>
+                        </td>
+                        <td>5px 5px 2px blue(horizontale, verticale, fondu, couleur)</td>
+                        <td>
+                            <dfn>Ombre de texte</dfn>
+                        </td>
+
+                    </tr>
+
+
+
+                </table>
+
+
+
+                <!--tableau 1-->
+
+
+                <!--tableau 2-->
+
+                <h4>Beauté de la couleur et du fond</h4>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>color</code>
+                        </td>
+                        <td>nom, rgb (rouge,vert,bleu), rgba(rouge,vert,bleu,transparence), #CF1A20.</td>
+                        <td>
+                            <dfn>Couleur du texte</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>background-color</code>
+                        </td>
+                        <td>pareil que "color"</td>
+                        <td>
+                            <dfn>Couleur de fond</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>background-image</code>
+                        </td>
+                        <td>url ('image.png')</td>
+                        <td>
+                            <dfn>Image de fond</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>background-attachment</code>
+                        </td>
+                        <td>fixed, scroll</td>
+                        <td>
+                            <dfn> Fond fixe</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>background-repeat</code>
+                        </td>
+                        <td>repeat-x, repeat-y, no-repeat, repeat</td>
+                        <td>
+                            <dfn>Répétition du fond</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>background-position</code>
+                        </td>
+                        <td>(x y), top, center, bottom, left, right</td>
+                        <td>
+                            <dfn>Super propriété du fond. Combine :
+                                <code>background-image</code>,
+                                <code>background-repeat</code>, ,
+                                <code>background-attachment</code>,
+                                <code>background-position</code>
+                            </dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>opacity</code>
+                        </td>
+                        <td>0.5</td>
+                        <td>
+                            <dfn>Transparence</dfn>
+                        </td>
+
+                    </tr>
+
+
+
+                </table>
+
+
+                <!--tableau 2-->
+
+                <!--tableau 3-->
+                <h5>Mise en boîte</h5>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>width</code>
+                        </td>
+                        <td>150px, 80%...</td>
+                        <td>
+                            <dfn>Largeur</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>height</code>
+                        </td>
+                        <td>150px, 80%...</td>
+                        <td>
+                            <dfn>Hauteur</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>min-width</code>
+                        </td>
+                        <td>150px, 80%..</td>
+                        <td>
+                            <dfn>Largeur minimale</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>max-width</code>
+                        </td>
+                        <td>150px, 80%..</td>
+                        <td>
+                            <dfn>Largeur maximale</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>min-height</code>
+                        </td>
+                        <td>150px, 80%..</td>
+                        <td>
+                            <dfn>Hauteur minimale</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>max-height</code>
+                        </td>
+                        <td>150px, 80%...</td>
+                        <td>
+                            <dfn>Hauteur maximale</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>margin-top</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge en haut</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>margin-left</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge à gauche</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>margin-right</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge à droite</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>margin-bottom</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge en bas</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>margin</code>
+                        </td>
+                        <td>23px 5px 23px 5px (haut, droite, bas, gauche)</td>
+                        <td>
+                            <dfn>Super-propriété de marge. Combine :
+                                <code>margin-top</code>,
+                                <code>margin-right</code>,
+                                <code>margin-bottom</code>,
+                                <code>margin-left</code>
+                            </dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>padding-left</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge intérieure à gauche</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>padding-right</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge intérieure à droite</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>padding-bottom</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge intérieure en bas</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>padding-top</code>
+                        </td>
+                        <td>23px</td>
+                        <td>
+                            <dfn>Marge intérieure en haut</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>padding</code>
+                        </td>
+                        <td>23px 5px 23px 5px (haut, droite, bas, gauche)</td>
+                        <td>
+                            <dfn>Super-propriété de marge intérieure. Combine :
+                                <code>padding-top</code>,
+                                <code>padding-right</code>,
+                                <code>padding-bottom</code>,
+                                <code>padding-left</code>
+                            </dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border-width</code>
+                        </td>
+                        <td>3px</td>
+                        <td>
+                            <dfn>Épaisseur de bordure</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border-color</code>
+                        </td>
+                        <td>nom, rgb (rouge,vert,bleu), rgba (rouge,vert,bleu,transparence), #CF1A20...</td>
+                        <td>
+                            <dfn>Couleur de bordure</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border-style</code>
+                        </td>
+                        <td>solid, dotted, dashed, double, groove, ridge, inset, outset</td>
+                        <td>
+                            <dfn>Type de bordure</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border</code>
+                        </td>
+                        <td>3px solid black</td>
+                        <td>
+                            <dfn>Super-propriété de bordure. Combine
+                                <code>border-width</code>,
+                                <code>border-color</code>,
+                                <code>border-style</code>. Existe aussi en version
+                                <code>border-top</code>,
+                                <code>border-right</code>,
+                                <code>border-bottom</code>
+                                <code>border-left</code>
+                            </dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border-radius</code>
+                        </td>
+                        <td>5px</td>
+                        <td>
+                            <dfn>Bordure arrondie</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>box-shadow</code>
+                        </td>
+                        <td>6px 6px 0px black (horizontale, verticale, fondu, couleur)</td>
+                        <td>
+                            <dfn>Ombre de boîte</dfn>
+                        </td>
+
+                    </tr>
+
+
+
+
+
+
+                </table>
+                <!--tableau 3-->
+                <!--tableau 4-->
+
+                <h6>Beauté du positionnement et de l'affichage</h6>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>display</code>
+                        </td>
+                        <td>block, inline, inline-block, table, table-cell, none...</td>
+                        <td>
+                            <dfn>Type d'éléments (
+                                <code>block</code>,
+                                <code>inline</code>,
+                                <code>inline-block</code>,
+                                <code>none</code>…)</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>visibility</code>
+                        </td>
+                        <td>visible, hidden</td>
+                        <td>
+                            <dfn>Visibilité</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>clip</code>
+                        </td>
+                        <td>rect (0px, 60px, 30px, 0px) rect (haut, droite, bas, gauche)</td>
+                        <td>
+                            <dfn>Affichage d'une partie de l'élément</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>overflow</code>
+                        </td>
+                        <td>auto, scroll, visible, hidden</td>
+                        <td>
+                            <dfn>Comportement en cas de dépassement</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>float</code>
+                        </td>
+                        <td>left, right, none</td>
+                        <td>
+                            <dfn>Flottant</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>clear</code>
+                        </td>
+                        <td>(left, right, both, none</td>
+                        <td>
+                            <dfn>Arrêt d'un flottant</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>position</code>
+                        </td>
+                        <td>relative, absolute, static</td>
+                        <td>
+                            <dfn>Positionnement</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>top</code>
+                        </td>
+                        <td>20px</td>
+                        <td>
+                            <dfn>Position par rapport au haut</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>bottom</code>
+                        </td>
+                        <td>20px</td>
+                        <td>
+                            <dfn>Position par rapport au bas</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>left</code>
+                        </td>
+                        <td>20px</td>
+                        <td>
+                            <dfn>Position par rapport à la gauche</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>right</code>
+                        </td>
+                        <td>20px</td>
+                        <td>
+                            <dfn>Position par rapport à la droite</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>z-index</code>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <dfn>Ordre d'affichage en cas de superposition. La plus grande valeur est affichée par-dessus les autres.</dfn>
+                        </td>
+
+                    </tr>
+                </table>
+                <!--tableau 4-->
+                <!--tableau 5-->
+
+                <h6>Listes de beauté</h6>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>list-style-type</code>
+                        </td>
+                        <td>disc, circle, square, decimal, lower-roman, upper-roman, lower-alpha, upper-alpha, none</td>
+                        <td>
+                            <dfn>Type de liste</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>list-style-position</code>
+                        </td>
+                        <td>inside, outside</td>
+                        <td>
+                            <dfn>Position en retrait</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>list-style-image</code>
+                        </td>
+                        <td>url ('puce.png')</td>
+                        <td>
+                            <dfn>Puce personnalisée</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>list-style</code>
+                        </td>
+                        <td>.</td>
+                        <td>
+                            <dfn>Super-propriété de liste. Combine
+                                <code>list-style-type</code>,
+                                <code>list-style-position</code>,
+                                <code>list-style-image</code>
+                            </dfn>
+                        </td>
+                    </tr>
+
+                </table>
+                <!--tableau 5-->
+                <!--tableau 6-->
+
+                <h6>Tableau de beauté</h6>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>border-collapse</code>
+                        </td>
+                        <td>collapse, separate</td>
+                        <td>
+                            <dfn>Fusion des bordures</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>empty-cells</code>
+                        </td>
+                        <td>hide, show</td>
+                        <td>
+                            <dfn>Affichage des cellules vides</dfn>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>caption-side</code>
+                        </td>
+                        <td>bottom, top</td>
+                        <td>
+                            <dfn>Position du titre du tableau</dfn>
+                        </td>
+
+                    </tr>
+
+
+                </table>
+                <!--tableau 6-->
+                <!--tableau 7-->
+
+
+                <div id="autrebeaute"><p>Autre beauté</p></div>
+                <table class="responsive">
+
+                    <tr>
+                        <th>Propriètés</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>à quoi qu'ça sert</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <code>cursor</code>
+                        </td>
+                        <td>crosshair, default, help, move, pointer, progress, text, wait, e-resize, ne-resize, auto...</td>
+                        <td>
+                            <dfn>Curseur de souris</dfn>
+                        </td>
+
+
+                    </tr>
+
+
+                </table>
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="foundation.dropdown.js"></script>
+
+    <script src="javascripts/foundation.dropdown.js"></script>
+    <script src="javascripts/foundation.topbar.js"></script>
+
+
+
+
+    <!-- scripts foundation -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+    <!-- scripts boilerplate -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
